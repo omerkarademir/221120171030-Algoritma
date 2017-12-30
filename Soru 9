@@ -1,6 +1,6 @@
 package calısmasoruları;
 import java.util.Scanner;
-public class ornek8 {
+public class soru9 {
 //Klavyeden girilen sayının tek mi çift mi olduğunu belirten programı yazınız.
 	public static void main(String[] args) {
 	Scanner input =  new Scanner(System.in);
