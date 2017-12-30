@@ -1,0 +1,36 @@
+package calısmasoruları;
+import java.util.Scanner;
+public class soru12{
+//Girilen üç sayının en büyüğünü bulan programı yazınız.
+	public static void main(String[] args) {
+   Scanner input=new Scanner(System.in);
+   System.out.println("Birinci sayıyı giriniz");
+   int a= input.nextInt();
+   System.out.println("İkinci sayıyı giriniz");
+   int b= input.nextInt();
+   System.out.println("Üçüncü Sayıyı giriniz");
+   int c= input.nextInt();
+   if (a>b)
+   {
+	   
+   if(a>c)
+   {
+	   System.out.println("En büyük sayı = " + a);
+   }
+   
+   else {
+	   System.out.println("En büyük sayı = " + c);
+   }
+   }
+   else {
+   if(b>c)
+   {
+	   System.out.println(" En büyük sayı = " + b);
+	}
+   else 
+   {
+		System.out.println("En büyük sayı = " + c);
+}
+	}
+}
+}
