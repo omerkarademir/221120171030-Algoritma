@@ -1,0 +1,19 @@
+package calısmasoruları;
+import java.util.Scanner;
+public class soru1{
+	//Klavyeden 15 sayısı girilene kadar sayıları toplayıp sonucu ekrana yazan programı yazınız.
+	public static void main(String[] args) {
+		int toplam=0;
+		int sayi=0;
+		while(sayi!=15)
+		{
+			Scanner input=new Scanner(System.in);
+			System.out.println("Sayı giriniz");
+			sayi=input.nextInt();
+			toplam=toplam+sayi;
+		}
+		System.out.println("Toplamları ==> "+toplam);
+
+	}
+
+}
