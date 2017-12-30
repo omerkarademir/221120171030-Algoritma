@@ -1,0 +1,24 @@
+package calısmasoruları;
+
+public class soru20{
+	//int türden bir dizinin elemanlarını tekler ve çiftler olmak üzere ayrı ayrı yazan programı yazınız.
+public static void main(String [] args) {
+	int[] dizi= {0,1,2,3,4,5,6,7,8,9};
+	int teksayi;
+	for (teksayi = 0; teksayi <=dizi.length-1; teksayi++)
+	{
+		if (teksayi%2==1)
+		{
+			System.out.println("Tek sayılar: " + teksayi);
+		}
+	}
+	int ciftsayi;
+	for (ciftsayi = 0; ciftsayi <=dizi.length-1; ciftsayi++)
+	{
+		if (ciftsayi%2==0)
+		{
+			System.out.println("Çift sayılar: " + ciftsayi);
+		}
+	}
+}
+}
