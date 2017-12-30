@@ -1,0 +1,18 @@
+package calısmasoruları;
+
+import java.util.Scanner;
+
+public class soru15 {
+//Klavyeden girilen metni terse çeviren programı yazınız.
+	public static void main(String[] args) {
+		System.out.println("Metni giriniz");
+		Scanner scan=new Scanner(System.in);
+		String alınanmetin=scan.nextLine();
+		
+		for (int i =alınanmetin.length()-1; i >=0; i--) 
+		{
+		System.out.print(alınanmetin.charAt(i));
+		}
+	}
+
+}
