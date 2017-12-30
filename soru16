@@ -1,0 +1,17 @@
+package calısmasoruları;
+import java.util.Scanner;
+import java.util.StringTokenizer;
+public class soru16{
+//Klavyeden girilen metni kelime kelime parçalayan programı yazınız.
+	public static void main(String[] args) {
+		System.out.println("Cümleyi Yazınız");
+		Scanner scan=new Scanner(System.in);
+		String alınanmetin=scan.nextLine();
+		String bs=" ";
+		StringTokenizer s=new StringTokenizer(alınanmetin,bs);
+		while(s.hasMoreTokens()){
+			System.out.println(s.nextToken());
+		}
+	}
+
+}
