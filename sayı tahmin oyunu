@@ -7,7 +7,6 @@ public static void main(String [] args)
 	Random r= new Random();
 	int cevap = r.nextInt(100);
 	int girilen=0;
-	int hak =5;
 	boolean devamedenoyun= true;
 	Scanner sc = new Scanner( System.in);
 	while (devamedenoyun) {
