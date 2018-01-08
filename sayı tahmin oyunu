@@ -1,0 +1,33 @@
+package finalcalısma;
+import java.util.Scanner;
+import java.util.Random;
+public class sayıtahmin {
+public static void main(String [] args)
+{
+	Random r= new Random();
+	int cevap = r.nextInt(100);
+	int girilen=0;
+	int hak =5;
+	boolean devamedenoyun= true;
+	Scanner sc = new Scanner( System.in);
+	while (devamedenoyun) {
+		System.out.println("Bir sayı giriniz");
+		girilen = sc.nextInt();
+		if(girilen>cevap)
+		{
+			System.out.println("Tahmini küçült");
+		}
+		else if (girilen < cevap)
+		{
+			System.out.println("Tahmini büyüt");
+		}
+		else if(girilen == cevap)
+		{
+			System.out.println("Tebrikler doğru bildiniz");
+		devamedenoyun=false;
+		}
+	}
+	}
+	
+}
+
